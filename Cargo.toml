@@ -1,0 +1,16 @@
+[package]
+name = "nest4rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.jni]
+version = "0.19"
+features = [
+	"invocation",
+	"default"
+]
